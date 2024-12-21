@@ -1,4 +1,14 @@
+# 특이사항
+없음
 
+# 개요
+[[pipeline] 백엔드(spring boot) 프로젝트에 다양한 CI/CD 방식 적용하기
+](https://sbi1024.github.io/devops/pipeline/2) 블로그의 게시글에서 sample로 제공되는 프로젝트 입니다.
+
+# 사용법
+위 블로그 글을 읽의면서 `deploy.yml` 파일의 코드를 하기 코드를 복사/붙여넣기 하며 단계적으로 따라가보세요.
+
+### GitHub Actions에서 EC2에 직접 접근 후 빌드 및 실행
 ``` yml
 name: Deploy To EC2
 on:
@@ -24,7 +34,7 @@ jobs:
             nohup java -jar build/libs/*SNAPSHOT.jar > ./output.log 2>&1 &
 ```
 
-
+### GitHub Actions에서 빌드 후 EC2에 빌드 파일 실행
 ``` yml
 name: Deploy To EC2
 on:
