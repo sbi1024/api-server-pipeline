@@ -1,5 +1,7 @@
 # 특이사항
-없음
+AWS EC2의 관련 학습이 선행되어야 합니다 하기 글들을 확인해 주세요. <br>
+[[aws] ec2를 통해 백엔드 api 서버 배포하기 (1)](https://sbi1024.github.io/devops/aws/1) <br>
+[[aws] ec2를 통해 백엔드 api 서버 배포하기 (2)](https://sbi1024.github.io/devops/aws/2) <br>
 
 # 개요
 [[pipeline] 백엔드(spring boot) 프로젝트에 다양한 CI/CD 방식 적용하기
