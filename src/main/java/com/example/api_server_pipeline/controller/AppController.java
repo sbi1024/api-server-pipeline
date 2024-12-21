@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
     @GetMapping("/")
     public String index() {
-        return "Hello World, GitHub Actions CI/CD Success! + 변경하였습니다!";
+        return "Hello World, GitHub Actions CI/CD Success!";
     }
 }
